@@ -1,0 +1,70 @@
+.parentHow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+}
+
+.howImages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.imageset1 {
+  width: 100%;
+  height: auto;
+  grid-column: span 2; /* First image spans 2 columns */
+}
+
+.imageset2 {
+  width: 100%;
+  height: auto;
+}
+
+.textSection {
+  flex: 1;
+  max-width: 500px;
+}
+
+.textSection p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.textSection p:first-child {
+  font-weight: bold;
+  color: #4a3aff;
+  font-size: 22px;
+}
+
+.textSection p:nth-child(odd) {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.contactSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.contactSection div {
+  flex: 1;
+}
+
+.contactSection button {
+  background-color: #4a3aff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contactSection button:hover {
+  background-color: #362ecc;
+}

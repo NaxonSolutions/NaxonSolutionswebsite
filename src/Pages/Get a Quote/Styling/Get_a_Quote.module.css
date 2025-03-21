@@ -1,0 +1,165 @@
+/* Container */
+.quoteContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Hero Section */
+.heroSection {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  font-size: 1.2rem;
+  color: #4a5568;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Form Section */
+.formSection {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3rem;
+}
+
+.formTitle {
+  font-size: 2rem;
+  color: #2d3748;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.quoteForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formLabel {
+  font-size: 1rem;
+  color: #4a5568;
+}
+
+.formInput,
+.formSelect,
+.formTextarea {
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #2d3748;
+  transition: border-color 0.3s ease;
+}
+
+.formInput:focus,
+.formSelect:focus,
+.formTextarea:focus {
+  border-color: #4299e1;
+  outline: none;
+}
+
+.formTextarea {
+  resize: vertical;
+}
+
+.submitButton {
+  background: #4299e1;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background: #3182ce;
+}
+
+/* CTA Section */
+.ctaSection {
+  text-align: center;
+  background: #f7fafc;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.ctaTitle {
+  font-size: 2rem;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+.ctaText {
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+}
+
+.ctaButton {
+  background: #48bb78;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background: #38a169;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .formTitle,
+  .ctaTitle {
+    font-size: 1.5rem;
+  }
+
+  .quoteForm {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .heroTitle {
+    font-size: 1.4rem;
+  }
+
+  .formTitle,
+  .ctaTitle {
+    font-size: 1.4rem;
+  }
+  .heroSubtitle {
+    font-size: 1rem;
+    max-width: 75vw;
+  }
+
+  .quoteForm {
+    gap: 1rem;
+  }
+}

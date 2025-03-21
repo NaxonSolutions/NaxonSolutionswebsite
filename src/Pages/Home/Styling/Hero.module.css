@@ -1,0 +1,165 @@
+.banner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.heroMain {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  top: 10px;
+}
+.heroHeading {
+  color: #f1f1f1;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  max-width: 90vw;
+}
+@media (max-width: 803px) {
+  .heroHeading {
+    font-size: 38px;
+    padding-top: 10%;
+    display: flex;
+    text-align: center;
+  }
+
+  .heroMain {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    position: absolute;
+    top: 10px;
+  }
+
+  .heroTagline {
+    margin-top: 6%;
+    color: #f1f1f1;
+    font-size: 14px !important;
+    padding: 0 20%;
+    margin: 0;
+  }
+  .banner {
+    width: 100%;
+    height: 105vh;
+    position: relative;
+  }
+}
+
+@media (max-width: 460px) {
+  .heroHeading {
+    font-size: 30px;
+    padding-top: 10%;
+    display: flex;
+    text-align: center;
+    padding: 0 20%;
+  }
+
+  .heroMain {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    position: absolute;
+    top: 10px;
+  }
+
+  .heroTagline {
+    margin-top: 6%;
+    color: #f1f1f1;
+    font-size: 14px !important;
+    padding: 0 20%;
+    margin: 0;
+  }
+  .banner {
+    width: 100%;
+    height: 105vh;
+    position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroHeading {
+    font-size: 32px;
+    padding-top: 10%;
+    display: flex;
+    text-align: center;
+    padding: 0 20%;
+  }
+
+  .heroMain {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    position: absolute;
+    top: 10px;
+  }
+
+  .heroTagline {
+    margin-top: 6%;
+    color: #f1f1f1;
+    font-size: 14px !important;
+    padding: 0 20%;
+    margin: 0;
+  }
+  .banner {
+    width: 100%;
+    height: 105vh;
+    position: relative;
+  }
+}
+
+.heroTagline {
+  margin-top: 6%;
+  color: #f1f1f1;
+  font-size: 22px;
+  text-align: center;
+}
+.CTAButton {
+  color: #f1f1f1;
+  background-color: yellowgreen;
+  padding: 7px 13px;
+  border-style: none;
+  border-radius: 4px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.iconComponent {
+  background-color: #f1f1f1;
+  border-radius: 35px;
+  padding: 8px;
+}
+
+.ChatIcon {
+  background-color: #111318;
+  color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 124px;
+  padding: 1%;
+  position: fixed;
+  right: 0.3rem;
+  bottom: 1.5rem;
+}

@@ -1,0 +1,234 @@
+.ChatParent {
+  width: 20%;
+  height: 40%;
+  background-color: whitesmoke;
+  position: fixed;
+  right: 0.3rem;
+  bottom: 5.3rem;
+  border-radius: 5px;
+  border: 0.1px solid black;
+  padding: 20px 25px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 6px;
+}
+@media screen and (max-width: 460px) {
+  .ChatParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30% !important;
+    height: 28% !important;
+    position: fixed;
+    right: 2.3rem;
+    bottom: 4.8rem !important;
+    border-radius: 5px;
+    padding: 20px 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .profilePic {
+    border-radius: 233px;
+    width: 32px !important;
+    object-fit: cover;
+    height: 32px !important;
+  }
+  .picAndName {
+    display: flex;
+    gap: 10px;
+    font-size: 0.2rem !important;
+    align-items: center;
+    margin-bottom: 0px !important;
+  }
+  .picAndName p {
+    display: flex;
+    gap: 10px;
+    font-size: 0.6rem !important;
+    align-items: center;
+  }
+
+  .question {
+    font-size: 0.5rem !important;
+    margin-bottom: 10px;
+    color: black;
+  }
+
+  .input {
+    padding: 3px 4px !important;
+    width: 90% !important;
+  }
+  .input::placeholder {
+    font-size: 0.5rem !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ChatParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 30%;
+    position: fixed;
+    right: 0.3rem;
+    bottom: 5.1rem;
+    border-radius: 5px;
+    padding: 20px 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .profilePic {
+    border-radius: 233px;
+    width: 32px !important;
+    object-fit: cover;
+    height: 32px !important;
+  }
+  .picAndName {
+    display: flex;
+    gap: 10px;
+    font-size: 0.2rem !important;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .picAndName p {
+    display: flex;
+    gap: 10px;
+    font-size: 0.6rem !important;
+    align-items: center;
+  }
+
+  .question {
+    font-size: 0.5rem !important;
+    margin-bottom: 10px;
+    color: black;
+  }
+
+  .input {
+    padding: 3px 4px !important;
+    width: 90% !important;
+  }
+  .input::placeholder {
+    font-size: 0.5rem !important;
+  }
+}
+
+.profilePic {
+  border-radius: 233px;
+  width: 50px;
+  object-fit: cover;
+  height: 50px;
+}
+.picAndName {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.question {
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.input {
+  padding: 4px 5px;
+  margin-bottom: 10px;
+}
+
+.sendBtn {
+  background-color: rgb(223, 233, 216);
+  border-radius: 10px solid;
+  color: black;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin-left: 15px;
+}
+
+@media (max-width: 969px) {
+  .ChatParent {
+    right: 0.3rem;
+    bottom: 5.8rem !important;
+    width: 40%;
+    height: 45%;
+  }
+  .input {
+    padding: 4px 5px;
+    margin-bottom: 20px;
+  }
+  .sendBtn {
+    background-color: rgb(223, 233, 216);
+    border-radius: 10px solid;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 970px) and (max-width: 1240px) {
+  .ChatParent {
+    right: 0.3rem;
+    bottom: 5.8rem !important;
+    width: 25%;
+    height: 45%;
+  }
+  .input {
+    padding: 4px 5px;
+    margin-bottom: 20px;
+  }
+  .sendBtn {
+    background-color: rgb(223, 233, 216);
+    border-radius: 10px solid;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 357px) {
+  .ChatParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35% !important;
+    height: 30% !important;
+    position: fixed;
+    right: 0.3rem;
+    bottom: 4.8rem !important;
+    border-radius: 5px;
+    padding: 20px 25px;
+  }
+}
+
+@media (min-width: 1241px) and (max-width: 2510px) {
+  .ChatParent {
+    right: 0.3rem;
+    bottom: 5.8rem !important;
+    width: 22%;
+    height: 45%;
+  }
+  .input {
+    padding: 4px 5px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  .sendBtn {
+    background-color: rgb(223, 233, 216);
+    border-radius: 10px solid;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-left: 15px;
+  }
+}

@@ -1,0 +1,240 @@
+.chatUiParent {
+  width: 96%;
+  border: 2px solid rgb(95, 87, 212);
+  height: 96vh;
+  margin: 10px 0px 0px 20px;
+  padding: 0px;
+  display: flex;
+}
+
+.chatUiLeftParent {
+  margin-left: 30px;
+  margin-top: 30px;
+  /* margin: 30px; */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+
+  /* background-color: rgb(250, 250, 250); */
+}
+
+.chatUiInfoContainer {
+  border: 1px solid rgb(95, 87, 212);
+  border-radius: 5px;
+  min-height: 74vh;
+
+  padding: 10px;
+  background-color: rgb(245, 241, 228);
+}
+
+.chatUiInfoParent {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 254, 251);
+  border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.chatUiTextParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 254, 251);
+  width: 100%;
+}
+.chatUiSearchParent {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  padding: 0;
+}
+.chatUiSearch {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(95, 87, 212);
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.searchIcon {
+  background-color: rgb(95, 87, 212);
+  height: 42px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 1px;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* For Hidden Scrollbar Effect */
+.chatUiInfoContainer {
+  max-height: 74vh;
+}
+.chatUiBody {
+  max-height: 64.3vh;
+}
+
+.chatUiInfoContainer,
+.chatUiBody {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch; /* Ensures smooth scrolling on iOS */
+
+  /* Hides scrollbar for Firefox */
+  scrollbar-width: none;
+
+  /* Hides scrollbar for IE and Edge */
+  -ms-overflow-style: none;
+}
+
+/* Hides scrollbar for Chrome, Safari (including iOS), and Edge */
+.chatUiInfoContainer::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* Chat Right Parent */
+
+.chatUiRightParent {
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+.chatUiChatParent {
+  border: 1px solid rgb(95, 87, 212);
+  background-color: rgb(245, 241, 228);
+  border-radius: 5px;
+  /* height: 70%; */
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(95, 87, 212);
+  margin: 10px 0;
+  padding: 0px 10px;
+  border-radius: 5px;
+  min-height: 42px;
+  height: 88px !important;
+}
+
+.allBtn {
+  all: unset; /* Resets all inherited and default styles */
+  cursor: pointer;
+  display: inline-block;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.avatarRight {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.headerRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.chatUiChatParent {
+  width: 100%;
+}
+
+.chatUiBody {
+  background-color: rgb(245, 241, 228);
+  height: 68vh;
+  margin: 10px;
+  border-radius: 5px;
+}
+.chatUiChatFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(95, 87, 212);
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.footerLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 86%;
+  gap: 10px;
+}
+
+.footerInput {
+  width: 86%;
+  padding: 14px 0px;
+  background-color: rgb(95, 87, 212);
+  border: none;
+}
+.footerInputDiv {
+  display: flex;
+  flex-direction: row;
+  width: 86%;
+  background-color: rgb(95, 87, 212);
+}
+
+.footerRight {
+  width: 10%;
+}
+
+.sendBtn {
+  background-color: rgb(255, 255, 255);
+  padding: 4px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media screen and (max-width: 970px) {
+  .chatUiChatFooter {
+    width: auto;
+  }
+  .footerLeft {
+    width: auto;
+    margin: 0px 10px;
+  }
+  .footerRight {
+    margin: 10px;
+    width: auto;
+  }
+
+  .chatUiParent {
+    width: 96%;
+    /* border: 2px solid rgb(95, 87, 212); */
+    height: 96vh;
+    border: none;
+    margin: 10px 0px 0px 20px;
+    padding: 0px;
+    display: flex;
+  }
+}
+
+.sendBtnDiv {
+  /* margin-right: 20px; */
+}
