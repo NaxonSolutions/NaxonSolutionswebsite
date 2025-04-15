@@ -29,28 +29,36 @@ const Header = () => {
         className={`${styles.navigation} ${menuOpen ? styles.showMenu : ""}`}
       >
         <NavLink
-          className={({ isActive }) => (isActive ? styles.isActive : "")}
+          className={({ isActive }) =>
+            isActive ? styles.isActive : styles.nonActive
+          }
           to="/"
           onClick={() => setMenuOpen(false)}
         >
           Home
         </NavLink>
         <NavLink
-          className={({ isActive }) => (isActive ? styles.isActive : "")}
+          className={({ isActive }) =>
+            isActive ? styles.isActive : styles.nonActive
+          }
           to="/Become_a_Partner"
           onClick={() => setMenuOpen(false)}
         >
           Become a Partner
         </NavLink>
         <NavLink
-          className={({ isActive }) => (isActive ? styles.isActive : "")}
+          className={({ isActive }) =>
+            isActive ? styles.isActive : styles.nonActive
+          }
           to="/Services"
           onClick={() => setMenuOpen(false)}
         >
           Services
         </NavLink>
         <NavLink
-          className={({ isActive }) => (isActive ? styles.isActive : "")}
+          className={({ isActive }) =>
+            isActive ? styles.isActive : styles.nonActive
+          }
           to="/Contact_us"
           onClick={() => setMenuOpen(false)}
         >

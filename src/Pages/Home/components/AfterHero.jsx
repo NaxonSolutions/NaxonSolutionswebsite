@@ -18,23 +18,23 @@ const AfterHero = () => {
   const services = [
     {
       component: <FaMobileScreen className={styling.icons} />,
-      tag: "Custom Development",
+      tag: "GHL Account Setup",
     },
     {
       component: <SiGoogleearthengine className={styling.icons} />,
-      tag: "App Development",
+      tag: "Custome GHL Dashboard",
     },
     {
       component: <MdLaptopMac className={styling.icons} />,
-      tag: "Web Development",
+      tag: "3rd party integration",
     },
     {
       component: <AiOutlineAudit className={styling.icons} />,
-      tag: "Quality Audit",
+      tag: "Custom GHL Add-ons ",
     },
     {
       component: <GrVmMaintenance className={styling.icons} />,
-      tag: "Mainatance And Support",
+      tag: "GHL Automation",
     },
   ];
 

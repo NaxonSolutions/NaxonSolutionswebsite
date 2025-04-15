@@ -22,12 +22,14 @@ const Footer = () => {
           <ul className={Styling.uls}>
             <li>Software Development</li>
             <li>Web Design</li>
-            <li>Mobile App Development</li>
-            <li>Digital Marketing</li>
-            <li>UX/UI Design</li>
-            <li>Branding & Identity</li>
-            <li>AI & Machine Learning</li>
-            <li>Cybersecurity</li>
+            <li>CRM Setup & Customization</li>
+            <li>Workflow Automations</li>
+            <li>Pipeline Management</li>
+            <li>Smart Lists & Filters</li>
+            <li>Opportunity Tracking</li>
+            <li>White-Label Branding</li>
+            <li>Zapier & API Integrations</li>
+            <li>Stripe Billing Setup</li>
           </ul>
         </div>
         <div className={Styling.containers}>
@@ -35,12 +37,15 @@ const Footer = () => {
           <ul className={Styling.uls}>
             <li>Web Application Design</li>
             <li>E-Commerce Solutions</li>
-            <li>Digital Marketing</li>
-            <li>IT Consulting</li>
-            <li>Data Analytics</li>
-            <li>Cloud Services</li>
+            <li>Funnel Building</li>
+            <li>Landing Page Design</li>
+            <li>Email & SMS Campaigns</li>
+            <li>Voicemail Drops</li>
+            <li>Call Tracking Setup</li>
             <li>Custom Solutions</li>
             <li>All Development Services</li>
+            <li>Webhook Configurations</li>
+            <li>SaaS Mode Configuration</li>
           </ul>
         </div>
         <div>
