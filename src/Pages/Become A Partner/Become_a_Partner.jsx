@@ -83,12 +83,3 @@ const Become_a_Partner = () => {
 };
 
 export default Become_a_Partner;
-
-// <FaMoneyBillTrendUp />
-// import { GrResources } from "react-icons/gr";  <GrResources />
-
-// import { MdOutlineBrandingWatermark } from "react-icons/md";
-// <MdOutlineBrandingWatermark />
-
-// import { MdSupportAgent } from "react-icons/md";
-//  <MdSupportAgent />;

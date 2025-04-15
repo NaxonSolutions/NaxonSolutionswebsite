@@ -16,6 +16,7 @@
   width: 100%;
   top: 0;
   z-index: 1000;
+  margin-bottom: 10rem;
 }
 
 .logo {
@@ -32,6 +33,7 @@
   justify-content: center;
   height: 100%;
   padding-top: 0.3rem;
+  margin-right: 0%;
 }
 @media screen and (max-width: 320px) {
   .header {
@@ -135,10 +137,12 @@
 
 .btn {
   background-color: #004ffe;
-  padding: 7px 12px;
-  border-style: none;
-  color: #f1f1f1;
-  border-radius: 4px;
+  padding: 6px 12px;
+  transition: background-color 0.3s ease;
+  border: 1px solid black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  color: rgb(255, 255, 255);
 }
 .nonActive {
   border: 1px solid black;
